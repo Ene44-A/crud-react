@@ -41,7 +41,7 @@ const MostrarLibros = () => {
                                     <td>
                                         <button className="btn btn-success">
                                             <Link to={`/libro/${libro.id}`}style={{ color:'#fff',textDecoration:'none' }}>
-                                                Detalle
+                                                ...
                                             </Link>
                                         </button>
                                     </td>
